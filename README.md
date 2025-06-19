@@ -25,6 +25,6 @@ It serves as a great starter project for beginners learning React.
 
 
 ## Project Template
-![my template](/Screenshot%202025-06-19%20190858.png)
+![my template](/public/Screenshot%202025-06-19%20190858.png)
 
 
