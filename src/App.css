@@ -1,0 +1,89 @@
+html {
+  font-size: small;
+}
+
+body {
+  font-size: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(213, 216, 218);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  text-align: center;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.my_form {
+  height: 20em;
+  width: 30em;
+  text-align: center;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: white;
+  box-shadow: 0 4px 8px black;
+}
+
+.my_form input,
+.my_form text {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+.my_form text {
+  resize: vertical;
+  min-height: 60px;
+}
+
+button {
+  width: 10rem;
+  height: 2rem;
+  align-self: center;
+  background-color: blueviolet;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.todo-list {
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  gap: 20px;
+  flex-wrap: wrap; 
+  max-width: 30rem;
+}
+
+.todo-list p {
+  margin: 0;
+  width: 14.5rem;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
